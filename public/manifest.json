@@ -1,0 +1,10 @@
+{
+  "name": "555 Digital",
+  "short_name": "555",
+  "description": "Website Transformation Agency",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#00D4FF",
+  "background_color": "#0A0A0F",
+  "icons": []
+}
