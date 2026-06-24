@@ -2,7 +2,11 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Send } from "lucide-react";
+import { Send, Loader2 } from "lucide-react";
+
+const DASHBOARD_API = process.env.NEXT_PUBLIC_DASHBOARD_URL
+  ? `${process.env.NEXT_PUBLIC_DASHBOARD_URL}/api/submit-lead`
+  : "https://555-dashboard.vercel.app/api/submit-lead";
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -14,6 +18,7 @@ export default function Contact() {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
   const validate = () => {
     const e: Record<string, string> = {};
@@ -25,13 +30,24 @@ export default function Contact() {
     return e;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const errs = validate();
     setErrors(errs);
-    if (Object.keys(errs).length === 0) {
-      setSubmitted(true);
+    if (Object.keys(errs).length > 0) return;
+
+    setSubmitting(true);
+    try {
+      await fetch(DASHBOARD_API, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+    } catch {
+      // Still show success — we don't want to block the user
     }
+    setSubmitting(false);
+    setSubmitted(true);
   };
 
   const inputCls =
@@ -50,7 +66,8 @@ export default function Contact() {
             </div>
             <h2 className="text-3xl font-extrabold mb-3">Message Sent!</h2>
             <p className="text-text-secondary">
-              I'll get back to you within 24 hours.
+              I&apos;ll get back to you within 24 hours. If you included your
+              website URL, I&apos;m already running your free audit.
             </p>
           </motion.div>
         </div>
@@ -67,10 +84,10 @@ export default function Contact() {
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-3">
             Ready to{" "}
-                        <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                          Transform
-                        </span>
-                        {" "}Your Website?
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Transform
+            </span>
+            {" "}Your Website?
           </h2>
         </div>
 
@@ -119,6 +136,7 @@ export default function Contact() {
                 value={form.website}
                 onChange={(e) => setForm({ ...form, website: e.target.value })}
               />
+              <p className="text-text-muted text-xs mt-1">I&apos;ll run a free audit on this automatically</p>
             </div>
             <div>
               <label htmlFor="budget" className="block text-sm text-text-secondary mb-1.5">Budget Range</label>
@@ -150,9 +168,14 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-background font-semibold px-6 py-3.5 rounded-lg hover:shadow-[0_0_25px_rgba(0,212,255,0.35)] transition-all duration-300 hover:scale-[1.01] flex items-center justify-center gap-2"
+              disabled={submitting}
+              className="w-full bg-primary text-background font-semibold px-6 py-3.5 rounded-lg hover:shadow-[0_0_25px_rgba(0,212,255,0.35)] transition-all duration-300 hover:scale-[1.01] flex items-center justify-center gap-2 disabled:opacity-60"
             >
-              <Send className="w-4 h-4" /> Send Message
+              {submitting ? (
+                <><Loader2 className="w-4 h-4 animate-spin" /> Running audit &amp; sending...</>
+              ) : (
+                <><Send className="w-4 h-4" /> Send Message &amp; Get Free Audit</>
+              )}
             </button>
           </motion.form>
 
@@ -185,6 +208,24 @@ export default function Contact() {
                 <p className="text-text-secondary">
                   Based in the US — Working with businesses everywhere
                 </p>
+              </div>
+
+              <div className="bg-surface border border-border rounded-xl p-5 mt-6">
+                <h3 className="text-text-primary font-semibold mb-2 text-sm">What happens next?</h3>
+                <ol className="space-y-2 text-text-secondary text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary font-bold">1.</span>
+                    I auto-run a full audit on your website
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary font-bold">2.</span>
+                    You get a report with scores, issues, and opportunities
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary font-bold">3.</span>
+                    We chat about what I&apos;d fix and how much it&apos;d cost
+                  </li>
+                </ol>
               </div>
 
               <div className="flex gap-3 pt-2">
