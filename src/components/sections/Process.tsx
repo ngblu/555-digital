@@ -8,7 +8,7 @@ const steps = [
     icon: ClipboardCheck,
     num: "01",
     title: "Free Audit",
-    desc: "I analyze your current website for design, speed, SEO, and conversion issues. You get a full report — no strings attached.",
+    desc: "I analyze your current website for design, speed, SEO, and conversion issues. You get a full report, no strings attached.",
   },
   {
     icon: PenTool,

@@ -9,7 +9,7 @@ const services = [
     icon: Layout,
     title: "Website Redesign",
     desc: "Your current site redesigned from scratch. Same domain, totally new look that actually gets people to call you.",
-    detail: "I tear down what's not working and rebuild it from scratch. Every redesign starts with an audit of your current site — heatmaps, analytics, speed tests — so the new version is based on data, not guesswork. You'll see mockups before I write a single line of code.",
+    detail: "I tear down what's not working and rebuild it from scratch. Every redesign starts with an audit of your current site, heatmaps, analytics, speed tests, so the new version is based on data, not guesswork. You'll see mockups before I write a single line of code.",
     deliverables: ["Full site audit report", "Custom mockups in Figma", "Responsive development", "Content migration", "Launch & QA testing"],
   },
   {
@@ -37,7 +37,7 @@ const services = [
     icon: Palette,
     title: "Brand Identity",
     desc: "Logo, colors, fonts, and a style guide so everything looks consistent across your site and socials.",
-    detail: "Your brand is more than a logo — it's how people feel when they land on your site. I build a complete design system: colors, fonts, spacing, component styles, and a brand guide you can hand to any designer or printer and get consistent results.",
+    detail: "Your brand is more than a logo, it's how people feel when they land on your site. I build a complete design system: colors, fonts, spacing, component styles, and a brand guide you can hand to any designer or printer and get consistent results.",
     deliverables: ["Logo design (3 concepts)", "Color palette", "Typography system", "Brand guidelines PDF", "Social media templates"],
   },
   {

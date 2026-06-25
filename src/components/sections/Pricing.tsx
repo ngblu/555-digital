@@ -131,7 +131,7 @@ export default function Pricing() {
 
         <p className="text-center text-text-muted text-sm mt-10">
           All plans include a free website audit. 50/50 payment split available
-          — half upfront, half on launch. Monthly maintenance starts at $99/mo.
+          , half upfront, half on launch. Monthly maintenance starts at $99/mo.
         </p>
       </div>
     </section>

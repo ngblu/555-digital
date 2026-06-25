@@ -206,7 +206,7 @@ export default function Contact() {
                   Location
                 </h3>
                 <p className="text-text-secondary">
-                  Based in the US — Working with businesses everywhere
+                  Based in the US, working with businesses everywhere
                 </p>
               </div>
 

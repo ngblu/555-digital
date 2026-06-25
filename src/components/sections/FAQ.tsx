@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     q: "What if I already have a website?",
-    a: "Perfect — that's my specialty. I audit your current site, identify what's working, and rebuild everything else.",
+    a: "Perfect, that's my specialty. I audit your current site, identify what's working, and rebuild everything else.",
   },
   {
     q: "Do you work with any specific industries?",
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "What happens to my current website during the rebuild?",
-    a: "Your existing site stays live until the new one is ready. I handle the migration seamlessly — zero downtime.",
+    a: "Your existing site stays live until the new one is ready. I handle the migration seamlessly, zero downtime.",
   },
   {
     q: "Do I own the code?",
