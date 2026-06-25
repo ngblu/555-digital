@@ -38,8 +38,9 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-text-secondary max-w-xl mb-8 leading-relaxed">
-              I find businesses with outdated websites and rebuild them — fast.
-              Better design, faster load times, more calls and bookings.
+              I find landscapers, detailers, window washers, and service
+              businesses with outdated websites and rebuild them · fast. Better
+              design, faster load times, more calls and bookings.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

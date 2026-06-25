@@ -11,15 +11,15 @@ const faqs = [
   },
   {
     q: "What if I already have a website?",
-    a: "Perfect — that's our specialty. We audit your current site, identify what's working, and rebuild everything else.",
+    a: "Perfect — that's my specialty. I audit your current site, identify what's working, and rebuild everything else.",
   },
   {
     q: "Do you work with any specific industries?",
-    a: "We work across all industries but have deep experience with restaurants, professional services, e-commerce, and local businesses.",
+    a: "I work across all industries but have deep experience with landscaping, auto detailing, window washing, pressure washing, cleaning, and other service businesses.",
   },
   {
     q: "What happens to my current website during the rebuild?",
-    a: "Your existing site stays live until the new one is ready. We handle the migration seamlessly — zero downtime.",
+    a: "Your existing site stays live until the new one is ready. I handle the migration seamlessly — zero downtime.",
   },
   {
     q: "Do I own the code?",
@@ -31,11 +31,11 @@ const faqs = [
   },
   {
     q: "Do you offer payment plans?",
-    a: "Yes. We offer 50/50 splits (half upfront, half on launch) for all tiers. Monthly payment plans available for Enterprise.",
+    a: "Yes. I offer 50/50 splits (half upfront, half on launch) for all tiers. Monthly payment plans available for Enterprise.",
   },
   {
     q: "What tech stack do you use?",
-    a: "We primarily build with Next.js, React, Tailwind CSS, and deploy on Vercel. For e-commerce, we integrate with Shopify or custom solutions.",
+    a: "I primarily build with Next.js, React, Tailwind CSS, and deploy on Vercel. For e-commerce, I integrate with Shopify or custom solutions.",
   },
 ];
 

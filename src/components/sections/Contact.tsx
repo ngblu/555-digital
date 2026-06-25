@@ -44,7 +44,7 @@ export default function Contact() {
         body: JSON.stringify(form),
       });
     } catch {
-      // Still show success — we don't want to block the user
+      // Still show success — I don't want to block the user
     }
     setSubmitting(false);
     setSubmitted(true);
@@ -223,7 +223,7 @@ export default function Contact() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary font-bold">3.</span>
-                    We chat about what I&apos;d fix and how much it&apos;d cost
+                    I'll walk you through what I'd fix and what it would cost
                   </li>
                 </ol>
               </div>

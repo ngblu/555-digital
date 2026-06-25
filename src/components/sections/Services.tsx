@@ -9,7 +9,7 @@ const services = [
     icon: Layout,
     title: "Website Redesign",
     desc: "Your current site redesigned from scratch. Same domain, totally new look that actually gets people to call you.",
-    detail: "I tear down what's not working and rebuild it from scratch. Every redesign starts with an audit of your current site — heatmaps, analytics, speed tests — so the new version is based on data, not guesswork. You'll see mockups before we write a single line of code.",
+    detail: "I tear down what's not working and rebuild it from scratch. Every redesign starts with an audit of your current site — heatmaps, analytics, speed tests — so the new version is based on data, not guesswork. You'll see mockups before I write a single line of code.",
     deliverables: ["Full site audit report", "Custom mockups in Figma", "Responsive development", "Content migration", "Launch & QA testing"],
   },
   {
