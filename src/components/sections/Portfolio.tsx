@@ -2,6 +2,7 @@
 
 import { useState, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 interface Project {
   name: string;
@@ -159,9 +160,9 @@ export default function Portfolio() {
               <BeforeAfterSlider project={p} />
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <h3 className="text-lg font-semibold text-text-primary">
+                  <Link href="/work/greenedge-landscaping" className="text-lg font-semibold text-text-primary hover:text-primary transition-colors">
                     {p.name}
-                  </h3>
+                  </Link>
                   <span className="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full font-medium">
                     {p.industry}
                   </span>
