@@ -49,7 +49,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#0C0D14" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <link rel="apple-touch-icon" href="/icon-192.svg" />
+        <link rel="icon" type="image/svg+xml" href="/logo-icon.svg" />
+        <link rel="apple-touch-icon" href="/logo-icon.svg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
