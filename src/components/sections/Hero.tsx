@@ -14,10 +14,11 @@ export default function Hero() {
             </span>
 
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold leading-[1.1] mb-6">
-              You Run Your {" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Business,</span>
-              {" "}I Handle Your{" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Online Presence</span>
+              Your Website Is{" "}
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Losing
+              </span>
+              {" "}You Customers
             </h1>
 
             <p className="text-lg text-text-secondary max-w-xl mb-4 leading-relaxed">
