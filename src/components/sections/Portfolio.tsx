@@ -188,7 +188,7 @@ export default function Portfolio() {
 
         <div className="text-center mt-12">
           <a
-            href="#contact"
+            href="/#contact"
             className="text-primary font-medium text-sm inline-flex items-center gap-1 hover:gap-2 transition-all duration-300"
           >
             View All Projects <span aria-hidden>→</span>

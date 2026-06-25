@@ -116,7 +116,7 @@ export default function Pricing() {
                 ))}
               </ul>
               <a
-                href="#contact"
+                href="/#contact"
                 className={`inline-flex items-center justify-center font-semibold px-6 py-3 rounded-lg transition-all duration-300 text-sm hover:scale-[1.02] ${
                   t.popular
                     ? "bg-primary text-background hover:shadow-[0_0_20px_rgba(0,212,255,0.3)]"
