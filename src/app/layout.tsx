@@ -61,7 +61,7 @@ export default function RootLayout({
                 "Web design and development for service businesses. Free PageSpeed audits, custom websites, and SEO by a solo developer.",
               url: "https://555digital.dev",
               telephone: "(629) 335-8803",
-              email: "hello@555digital.dev",
+              email: "contact@555digital.dev",
               areaServed: "US",
               founder: {
                 "@type": "Person",

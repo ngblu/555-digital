@@ -195,7 +195,7 @@ export default function Contact() {
             <div className="relative z-10 space-y-6">
               <div>
                 <h3 className="text-text-primary font-semibold mb-1">Email</h3>
-                <p className="text-text-secondary">hello@555digital.com</p>
+                <p className="text-text-secondary">contact@555digital.dev</p>
               </div>
               <div>
                 <h3 className="text-text-primary font-semibold mb-1">Phone</h3>

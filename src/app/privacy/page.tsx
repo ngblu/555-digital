@@ -44,7 +44,7 @@ export default function PrivacyPage() {
             <h2 className="text-text-primary font-semibold text-base">Your rights</h2>
             <p>
               You can request a copy of your data, ask me to update or correct it,
-              or request deletion at any time. Email me at hello@555digital.dev and
+              or request deletion at any time. Email me at contact@555digital.dev and
               I'll handle it within 30 days.
             </p>
           </section>
@@ -62,8 +62,8 @@ export default function PrivacyPage() {
             <h2 className="text-text-primary font-semibold text-base">Contact</h2>
             <p>
               Questions? Reach me at{" "}
-              <a href="mailto:hello@555digital.dev" className="text-primary hover:underline">
-                hello@555digital.dev
+              <a href="mailto:contact@555digital.dev" className="text-primary hover:underline">
+                contact@555digital.dev
               </a>
               {" "}or call{" "}
               <a href="tel:+16293358803" className="text-primary hover:underline">

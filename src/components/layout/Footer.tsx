@@ -62,7 +62,7 @@ export default function Footer() {
               Contact
             </h4>
             <ul className="space-y-2.5 text-text-muted text-sm">
-              <li>hello@555digital.com</li>
+              <li>contact@555digital.dev</li>
               <li>Based in the US</li>
             </ul>
             <a
