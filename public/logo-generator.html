@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>555 Digital Logo Generator</title>
+<style>
+  body { background: #06070B; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; font-family: Inter, system-ui, sans-serif; }
+  canvas { border-radius: 24px; margin-bottom: 24px; }
+  a { background: #00D4FF; color: #06070B; padding: 12px 32px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 16px; }
+  p { color: #5C5C78; margin-top: 8px; font-size: 14px; }
+</style>
+</head>
+<body>
+<canvas id="c" width="512" height="512"></canvas>
+<a id="dl" download="555-digital-logo.png">Download PNG (512x512)</a>
+<p>Right-click the image above and "Save Image As" if download doesn't start</p>
+<script>
+const c = document.getElementById('c');
+const ctx = c.getContext('2d');
+const size = 512, r = 96;
+
+// Background
+ctx.fillStyle = '#0C0D14';
+ctx.beginPath(); ctx.roundRect(0, 0, size, size, r); ctx.fill();
+
+// Inner border glow
+const grad = ctx.createLinearGradient(0, 0, size, size);
+grad.addColorStop(0, '#00D4FF33');
+grad.addColorStop(1, '#7B61FF33');
+ctx.strokeStyle = grad;
+ctx.lineWidth = 3;
+ctx.beginPath(); ctx.roundRect(16, 16, size-32, size-32, r-12); ctx.stroke();
+
+// "555" text
+const tgrad = ctx.createLinearGradient(0, 0, size, 0);
+tgrad.addColorStop(0, '#00D4FF');
+tgrad.addColorStop(1, '#7B61FF');
+ctx.fillStyle = tgrad;
+ctx.font = '900 200px Inter, system-ui, sans-serif';
+ctx.textAlign = 'center';
+ctx.textBaseline = 'middle';
+ctx.fillText('555', size/2, size/2 - 30);
+
+// "DIGITAL" text
+ctx.fillStyle = '#9898B0';
+ctx.font = '600 36px Inter, system-ui, sans-serif';
+ctx.letterSpacing = '6px';
+ctx.fillText('DIGITAL', size/2, size/2 + 110);
+
+// Make downloadable
+const link = document.getElementById('dl');
+link.href = c.toDataURL('image/png');
+</script>
+</body>
+</html>
