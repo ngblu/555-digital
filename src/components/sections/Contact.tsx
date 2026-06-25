@@ -227,19 +227,6 @@ export default function Contact() {
                   </li>
                 </ol>
               </div>
-
-              <div className="flex gap-3 pt-2">
-                {["X", "Li", "Ig", "Dr"].map((label) => (
-                  <a
-                    key={label}
-                    href="#"
-                    aria-label={label}
-                    className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-text-muted text-xs font-bold hover:border-primary hover:text-primary transition-all duration-300"
-                  >
-                    {label}
-                  </a>
-                ))}
-              </div>
             </div>
           </motion.div>
         </div>
