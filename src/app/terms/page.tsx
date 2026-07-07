@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | 555 Digital",
+  description: "Payment terms, revisions, ownership, and refund policy for 555 Digital web design projects.",
+  alternates: {
+    canonical: "https://www.555digital.dev/terms",
+  },
+  openGraph: {
+    title: "Terms of Service | 555 Digital",
+    description: "Payment terms, revisions, ownership, and refund policy for 555 Digital web design projects.",
+    url: "https://www.555digital.dev/terms",
+  },
+};
 
 export default function TermsPage() {
   return (

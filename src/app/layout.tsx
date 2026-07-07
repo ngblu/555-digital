@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://555digital.dev"),
+  metadataBase: new URL("https://www.555digital.dev"),
   title: "555 Digital | Web Design for Service Businesses",
   description:
     "I find underperforming websites and rebuild them for landscapers, detailers, window washers, and service businesses. Free PageSpeed audit included.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description:
       "I find underperforming websites and rebuild them for landscapers, detailers, window washers, and service businesses.",
     type: "website",
-    url: "https://555digital.dev",
+    url: "https://www.555digital.dev",
     images: [
       {
         url: "/og-image.svg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
-    canonical: "https://555digital.dev",
+    canonical: "https://www.555digital.dev",
   },
 };
 
@@ -60,7 +60,7 @@ export default function RootLayout({
               name: "555 Digital",
               description:
                 "Web design and development for service businesses. Free PageSpeed audits, custom websites, and SEO by a solo developer.",
-              url: "https://555digital.dev",
+              url: "https://www.555digital.dev",
               telephone: "(629) 335-8803",
               email: "contact@555digital.dev",
               areaServed: "US",

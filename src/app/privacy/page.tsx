@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | 555 Digital",
+  description: "How 555 Digital collects, uses, and protects your data. No tracking, no third-party sharing, just transparency.",
+  alternates: {
+    canonical: "https://www.555digital.dev/privacy",
+  },
+  openGraph: {
+    title: "Privacy Policy | 555 Digital",
+    description: "How 555 Digital collects, uses, and protects your data. No tracking, no third-party sharing, just transparency.",
+    url: "https://www.555digital.dev/privacy",
+  },
+};
 
 export default function PrivacyPage() {
   return (
@@ -50,6 +64,24 @@ export default function PrivacyPage() {
           </section>
 
           <section className="space-y-3">
+            <h2 className="text-text-primary font-semibold text-base">AI and automation</h2>
+            <p>
+              I use AI tools (including large language models like GPT and Claude)
+              as part of my development workflow to help write code, generate content
+              drafts, and automate routine tasks. Every piece of AI-generated output
+              is reviewed, edited, and approved by a human before it reaches your
+              site. Your business data is never used to train AI models, and no
+              client information is shared with AI providers beyond what's necessary
+              to complete your project.
+            </p>
+            <p>
+              AI tools help me work faster and keep costs down, but the strategy,
+              design decisions, and final quality control are always human. If you
+              have questions about how AI is used in your project, just ask.
+            </p>
+          </section>
+
+          <section className="space-y-3">
             <h2 className="text-text-primary font-semibold text-base">Cookies</h2>
             <p>
               The dashboard uses localStorage (browser storage) so your data
@@ -66,7 +98,7 @@ export default function PrivacyPage() {
                 contact@555digital.dev
               </a>
               {" "}or call{" "}
-              <a href="tel:+16293358803" className="text-primary hover:underline">
+              <a href="tel:+162****8803" className="text-primary hover:underline">
                 (629) 335-8803
               </a>
               .

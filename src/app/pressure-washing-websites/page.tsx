@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     title: "Pressure Washing Website Design | 555 Digital",
     description:
       "I build websites for pressure washing companies. Free audit included.",
-    url: "https://555digital.dev/pressure-washing-websites",
+    url: "https://www.555digital.dev/pressure-washing-websites",
   },
-  alternates: { canonical: "https://555digital.dev/pressure-washing-websites" },
+  alternates: { canonical: "https://www.555digital.dev/pressure-washing-websites" },
 };
 
 export default function PressureWashingPage() {
@@ -69,7 +69,7 @@ export default function PressureWashingPage() {
             </h3>
             <ul className="space-y-4">
               {[
-                "No website — Facebook page only",
+                "No website, Facebook page only",
                 "No Google presence for local searches",
                 "No photo gallery of completed jobs",
                 "No online quote or booking system",

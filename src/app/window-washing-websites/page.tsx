@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     title: "Window Washing Website Design | 555 Digital",
     description:
       "I build high-performance websites for window washing companies. Free audit included.",
-    url: "https://555digital.dev/window-washing-websites",
+    url: "https://www.555digital.dev/window-washing-websites",
   },
-  alternates: { canonical: "https://555digital.dev/window-washing-websites" },
+  alternates: { canonical: "https://www.555digital.dev/window-washing-websites" },
 };
 
 export default function WindowWashingPage() {

@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     title: "Landscaping Website Design | 555 Digital",
     description:
       "I build high-performance websites for landscaping companies. Free audit included.",
-    url: "https://555digital.dev/landscaping-websites",
+    url: "https://www.555digital.dev/landscaping-websites",
   },
-  alternates: { canonical: "https://555digital.dev/landscaping-websites" },
+  alternates: { canonical: "https://www.555digital.dev/landscaping-websites" },
 };
 
 export default function LandscapingPage() {

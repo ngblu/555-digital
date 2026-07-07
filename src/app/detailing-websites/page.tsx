@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     title: "Auto Detailing Website Design | 555 Digital",
     description:
       "I build high-performance websites for auto detailing businesses. Free audit included.",
-    url: "https://555digital.dev/detailing-websites",
+    url: "https://www.555digital.dev/detailing-websites",
   },
-  alternates: { canonical: "https://555digital.dev/detailing-websites" },
+  alternates: { canonical: "https://www.555digital.dev/detailing-websites" },
 };
 
 export default function DetailingPage() {

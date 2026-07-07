@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     title: "How Much Does a Landscaping Website Cost? (2025)",
     description:
       "Landing pages from $1,000, full landscaping websites from $2,500. Transparent pricing breakdown.",
-    url: "https://555digital.dev/blog/landscaping-website-cost",
+    url: "https://www.555digital.dev/blog/landscaping-website-cost",
   },
-  alternates: { canonical: "https://555digital.dev/blog/landscaping-website-cost" },
+  alternates: { canonical: "https://www.555digital.dev/blog/landscaping-website-cost" },
 };
 
 export default function BlogPost() {
@@ -59,11 +59,11 @@ export default function BlogPost() {
             professional, and get people to call you. Everything else is nice-to-have.
           </p>
           <ul className="space-y-2 ml-6 list-disc">
-            <li><strong className="text-text-primary">Mobile-first design</strong> — 70% of your traffic is on a phone. If your site doesn't work on mobile, you're burning money.</li>
-            <li><strong className="text-text-primary">Service area pages</strong> — One page per city you serve. This is how you rank for "landscaper [city]" instead of just your business name.</li>
-            <li><strong className="text-text-primary">Photo gallery that loads</strong> — Your work is visual. A gallery that takes 8 seconds to load is worse than no gallery at all.</li>
-            <li><strong className="text-text-primary">Online booking or quote form</strong> — Every phone call you don't have to take is time you can spend on a job site.</li>
-            <li><strong className="text-text-primary">Google Business Profile integration</strong> — Your GBP and website need to work together. Reviews, photos, and posts should flow between them.</li>
+            <li><strong className="text-text-primary">Mobile-first design</strong>, 70% of your traffic is on a phone. If your site doesn't work on mobile, you're burning money.</li>
+            <li><strong className="text-text-primary">Service area pages</strong>, One page per city you serve. This is how you rank for "landscaper [city]" instead of just your business name.</li>
+            <li><strong className="text-text-primary">Photo gallery that loads</strong>, Your work is visual. A gallery that takes 8 seconds to load is worse than no gallery at all.</li>
+            <li><strong className="text-text-primary">Online booking or quote form</strong>, Every phone call you don't have to take is time you can spend on a job site.</li>
+            <li><strong className="text-text-primary">Google Business Profile integration</strong>, Your GBP and website need to work together. Reviews, photos, and posts should flow between them.</li>
           </ul>
 
           <p>What you don't need: a blog (unless you plan to write regularly), custom animations, a
@@ -76,7 +76,7 @@ export default function BlogPost() {
             free templates load in 8-12 seconds, don't rank for competitive local searches, and
             look identical to every other landscaping site in your city. If a homeowner Googles
             "landscaper near me" and sees three sites that all look the same, they're picking
-            based on reviews — not your website. A custom site stands out.
+            based on reviews, not your website. A custom site stands out.
           </p>
 
           <h2 className="text-2xl font-bold text-text-primary mt-10 mb-4">What I charge (transparently)</h2>
