@@ -70,7 +70,7 @@ export default function Pricing() {
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                           Straightforward
                         </span>
-                        {" "}Pricing, No
+                        {" "}Pricing, No Surprises
           </h2>
         </div>
 
@@ -131,7 +131,7 @@ export default function Pricing() {
 
         <p className="text-center text-text-muted text-sm mt-10">
           All plans include a free website audit. 50/50 payment split available
-          — half upfront, half on launch.{" "}
+          , half upfront, half on launch.{" "}
           <a
             href="https://555-dashboard.vercel.app/maintenance"
             target="_blank"

@@ -19,7 +19,6 @@
   --animate-slide-in-right: slideInRight 0.5s ease-out forwards;
   --animate-glow: glow 2s ease-in-out infinite;
   --animate-float: float 3s ease-in-out infinite;
-  --animate-marquee: marquee 40s linear infinite;
 
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -40,10 +39,6 @@
   @keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
-  }
-  @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
   }
 }
 
