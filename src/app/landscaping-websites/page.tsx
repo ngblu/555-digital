@@ -96,40 +96,26 @@ export default function LandscapingPage() {
         </div>
       </section>
 
-      {/* Case study tease */}
+      {/* Example of what's possible */}
       <section className="py-16 md:py-24 px-4 md:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold mb-6">
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              GreenEdge Landscaping
-            </span>
+          <span className="text-primary text-sm font-semibold tracking-widest uppercase">
+            Live Example
+          </span>
+          <h2 className="text-3xl font-extrabold mb-6 mt-3">
+            See what this looks like in the real world
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-            Local landscaping company stuck with a free Wix site. I rebuilt it with
-            online booking, service area pages, and a photo gallery that actually
-            loads. Calls increased 140%, bookings up 80%.
+            Every site I build is custom, but here's a plumbing company site to
+            show you the level of quality. Fast, mobile-friendly, and built to
+            convert browsers into callers.
           </p>
-          <div className="flex gap-4 justify-center">
-            <div>
-              <span className="text-primary font-bold text-2xl">+140%</span>
-              <span className="text-text-muted text-sm block">More Calls</span>
-            </div>
-            <div className="w-px bg-border" />
-            <div>
-              <span className="text-primary font-bold text-2xl">+80%</span>
-              <span className="text-text-muted text-sm block">More Bookings</span>
-            </div>
-            <div className="w-px bg-border" />
-            <div>
-              <span className="text-primary font-bold text-2xl">9.4s → 1.6s</span>
-              <span className="text-text-muted text-sm block">Load Time</span>
-            </div>
-          </div>
           <Link
-            href="/work/greenedge-landscaping"
-            className="inline-flex items-center gap-1.5 text-primary font-medium mt-8 hover:gap-2.5 transition-all"
+            href="https://pyburn-plumbing.vercel.app"
+            target="_blank"
+            className="inline-flex items-center gap-1.5 text-primary font-medium hover:gap-2.5 transition-all"
           >
-            Read the full case study <span aria-hidden>→</span>
+            View live demo site <span aria-hidden>→</span>
           </Link>
         </div>
       </section>

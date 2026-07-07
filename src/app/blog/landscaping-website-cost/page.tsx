@@ -14,9 +14,31 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.555digital.dev/blog/landscaping-website-cost" },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "How Much Does a Landscaping Website Cost in 2025?",
+  description:
+    "Real pricing for landscaping websites in 2025. Landing pages from $1,000, full sites from $2,500.",
+  author: {
+    "@type": "Person",
+    name: "Noah",
+  },
+  datePublished: "2025-06-15",
+  url: "https://www.555digital.dev/blog/landscaping-website-cost",
+  publisher: {
+    "@type": "Organization",
+    name: "555 Digital",
+  },
+};
+
 export default function BlogPost() {
   return (
     <div className="pt-24 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <article className="max-w-3xl mx-auto px-4 md:px-6 lg:px-8">
         <header className="mb-12">
           <span className="text-primary text-sm font-semibold tracking-widest uppercase">Blog</span>
@@ -116,9 +138,9 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-text-primary mt-10 mb-4">Is it worth it?</h2>
           <p>
             A landscaping job averages $1,500–3,000. If a better website brings in two extra
-            jobs per month, it pays for itself in 30 days. One of my clients, GreenEdge
-            Landscaping, saw a 140% increase in calls and 80% more bookings after their rebuild.
-            Their site paid for itself in the first two weeks.
+            jobs per month, it pays for itself in 30 days. The businesses I work with
+            consistently see more calls and bookings after launching a fast, professional
+            site, usually paying for the investment within the first month.
           </p>
 
           <div className="bg-surface border border-border rounded-2xl p-8 my-10 not-prose">

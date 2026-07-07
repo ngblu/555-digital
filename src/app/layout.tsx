@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import Analytics from "@/components/Analytics";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -51,41 +52,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <link rel="icon" type="image/svg+xml" href="/logo-icon.svg" />
         <link rel="apple-touch-icon" href="/logo-icon.svg" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ProfessionalService",
-              name: "555 Digital",
-              description:
-                "Web design and development for service businesses. Free PageSpeed audits, custom websites, and SEO by a solo developer.",
-              url: "https://www.555digital.dev",
-              telephone: "(629) 335-8803",
-              email: "contact@555digital.dev",
-              areaServed: "US",
-              founder: {
-                "@type": "Person",
-                name: "Noah",
-                jobTitle: "Web Developer",
-              },
-              offers: [
-                {
-                  "@type": "Offer",
-                  name: "Landing Page",
-                  price: "1000",
-                  priceCurrency: "USD",
-                },
-                {
-                  "@type": "Offer",
-                  name: "Full Website",
-                  price: "2500",
-                  priceCurrency: "USD",
-                },
-              ],
-            }),
-          }}
-        />
+
       </head>
       <body className="min-h-full flex flex-col bg-background text-text-primary">
         {/* Subtle ambient glow */}
@@ -93,6 +60,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

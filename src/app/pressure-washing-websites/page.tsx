@@ -56,10 +56,10 @@ export default function PressureWashingPage() {
                 real websites get the calls. Everyone else gets passed over.
               </p>
               <p>
-                I built a site for a pressure washing company that was running
-                off a Facebook page. Now they show up on Google, have a proper
-                gallery of their work, and get quote requests directly through
-                the site instead of playing phone tag.
+                I've helped pressure washing businesses go from Facebook-only to having
+                a proper website that shows up on Google, with a gallery of their
+                work and quote requests coming directly through the site instead
+                of playing phone tag with customers.
               </p>
             </div>
           </div>
@@ -85,36 +85,27 @@ export default function PressureWashingPage() {
         </div>
       </section>
 
+      {/* Example of what's possible */}
       <section className="py-16 md:py-24 px-4 md:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold mb-6">
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Premier Pressure Washing
-            </span>
+          <span className="text-primary text-sm font-semibold tracking-widest uppercase">
+            Live Example
+          </span>
+          <h2 className="text-3xl font-extrabold mb-6 mt-3">
+            See what this looks like in the real world
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-            Luis was running his entire pressure washing business through a
-            Facebook page. No website, no Google presence, no way for customers
-            to get a quote online. I built him a site with a job gallery, instant
-            quotes, and proper local SEO. The booking form alone paid for the
-            site in the first month.
+            Every site I build is custom, but here's a plumbing company site to
+            show you the level of quality. Fast, mobile-friendly, and built to
+            convert browsers into callers.
           </p>
-          <div className="flex gap-4 justify-center">
-            <div>
-              <span className="text-primary font-bold text-2xl">FB → Web</span>
-              <span className="text-text-muted text-sm block">From Zero</span>
-            </div>
-            <div className="w-px bg-border" />
-            <div>
-              <span className="text-primary font-bold text-2xl">Google</span>
-              <span className="text-text-muted text-sm block">Now Ranking</span>
-            </div>
-            <div className="w-px bg-border" />
-            <div>
-              <span className="text-primary font-bold text-2xl">Instant</span>
-              <span className="text-text-muted text-sm block">Quote Forms</span>
-            </div>
-          </div>
+          <Link
+            href="https://pyburn-plumbing.vercel.app"
+            target="_blank"
+            className="inline-flex items-center gap-1.5 text-primary font-medium hover:gap-2.5 transition-all"
+          >
+            View live demo site <span aria-hidden>→</span>
+          </Link>
         </div>
       </section>
 
