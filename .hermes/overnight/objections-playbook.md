@@ -1,6 +1,23 @@
 # Objections Playbook — 555 Digital
 > Living document. Update after every real call.
-> Last updated: 2026-07-07
+> Last updated: 2026-07-07 (after first live call session)
+
+---
+
+## 📞 CALL LOG LEARNINGS
+
+**2026-07-07 — 1st Stop Heating & Cooling: HUNG UP ON.**
+- Opener was "your site failed Google's test completely." Pattern-matched to SEO robocall spam. Instant hangup.
+- LESSON: Never lead with the stat. Lead with permission + local identity ("local web guy in Cookeville, I did Pyburn Plumbing's site"), THEN tease the finding. Spam callers are never local and never ask permission.
+
+**2026-07-07 — The Lawn Rangers: SKIPPED (correctly).**
+- Their 33.7s LCP is mobile lab data. Speed Index was 3.4s, meaning the page paints fast and one heavy element loads late. On desktop with cache it feels instant.
+- LESSON: Check Speed Index vs LCP gap before calling. A big gap = "one heavy element," not "slow site." Pitch angle must be "Google's ranking test disagrees with how it feels," never "your site is slow" (owner will check on their own device, see it load fine, and write you off).
+
+**REVISED OPENER (use this, not the stat-first version):**
+1. Permission: "Hey, this is Noah, I'm a local web guy in Cookeville. You got 20 seconds or did I catch you on a job?"
+2. Local proof: "I build sites for service businesses around here, I did Pyburn Plumbing's new site."
+3. Curiosity tease: "I was looking at [niche] companies in [city] and noticed something on your site that's probably costing you Google calls. Can I just email you what I found? Free, no pitch in it."
 
 ---
 

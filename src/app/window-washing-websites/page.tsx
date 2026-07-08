@@ -106,11 +106,10 @@ export default function WindowWashingPage() {
             convert browsers into callers.
           </p>
           <Link
-            href="https://pyburn-plumbing.vercel.app"
-            target="_blank"
+            href="/#portfolio"
             className="inline-flex items-center gap-1.5 text-primary font-medium hover:gap-2.5 transition-all"
           >
-            View live demo site <span aria-hidden>→</span>
+            See my work <span aria-hidden>→</span>
           </Link>
         </div>
       </section>
