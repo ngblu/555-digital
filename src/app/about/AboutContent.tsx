@@ -72,22 +72,10 @@ export default function AboutContent() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I&apos;m Noah, a computer science student who got tired of seeing
-                local businesses lose customers to terrible websites.
-              </p>
-              <p>
-                My friend runs a detailing business and was doing everything
-                through a Facebook page, no website, no Google presence,
-                nothing. Another buddy started a landscaping company and was
-                stuck with a free Wix template that looked like it was built
-                in 2003. These are guys who are great at what they do, they
-                just didn&apos;t know their online presence was holding them
-                back.
-              </p>
-              <p>
-                I started 555 Digital to fix that. I use the same modern tools
-                that power sites like Hulu and Nike, but at prices a local
-                business can actually afford.
+                I&apos;m Noah, a computer science student in Cookeville, TN
+                who builds websites for local service businesses. I use the
+                same modern tools that power sites like Hulu and Nike, but at
+                prices a local business can actually afford.
               </p>
               <p className="text-text-primary font-medium">
                 Why work with me instead of a big agency? Because I actually
