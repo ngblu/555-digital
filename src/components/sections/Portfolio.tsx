@@ -23,6 +23,12 @@ export default function Portfolio() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
+              title: "Pyburn Plumbing",
+              niche: "Plumbing & Septic",
+              desc: "Full-service plumbing website with emergency banner, city pages for 7 service areas, click-to-call, and mobile-first design. Rebuilt from WordPress/Divi to Next.js + Tailwind.",
+              link: "https://pyburn-plumbing.vercel.app",
+            },
+            {
               title: "Auto Detailing Demo",
               niche: "Auto Detailing",
               desc: "Complete detailing website with instant quote form, service packages, before/after gallery, and click-to-call. Mobile-first, built to convert.",
