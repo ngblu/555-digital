@@ -23,6 +23,12 @@ export default function Portfolio() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
+              title: "Auto Detailing Demo",
+              niche: "Auto Detailing",
+              desc: "Complete detailing website with instant quote form, service packages, before/after gallery, and click-to-call. Mobile-first, built to convert.",
+              link: "https://detailing-demo-two.vercel.app",
+            },
+            {
               title: "1776 Coffee",
               niche: "E-Commerce / Brand",
               desc: "Patriotic coffee brand with online ordering, brand story, and Instagram integration. Built with Next.js and Tailwind CSS.",
